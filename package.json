@@ -1,0 +1,60 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "standard": "standard *.tsx",
+    "standard:fix": "standard *.tsx --fix",
+    "dev-server": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-redux": "^6.0.4",
+    "@types/react-router": "^4.0.29",
+    "@types/react-router-dom": "^4.3.0",
+    "@types/webpack-env": "^1.13.6",
+    "awesome-typescript-loader": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "eslint-plugin-typescript": "^0.12.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.7.1",
+    "less-loader": "^4.1.0",
+    "react-hot-loader": "^4.3.3",
+    "source-map-loader": "^0.2.3",
+    "standard": "^11.0.1",
+    "style-loader": "^0.21.0",
+    "typescript": "^2.9.2",
+    "typescript-eslint-parser": "^16.0.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.112",
+    "antd": "^3.7.1",
+    "bitsharesjs": "^1.8.0",
+    "bitsharesjs-ws": "^1.5.4",
+    "lodash": "^4.17.10",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0"
+  },
+  "standard": {
+    "parser": "typescript-eslint-parser",
+    "plugins": [
+      "typescript"
+    ]
+  }
+}
